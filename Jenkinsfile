@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Prod') {
       steps {
-        git(url: 'https://github.com/welcome18/Mvn.git', branch: 'mvn')
+        git(url: 'https://github.com/shravankumarposhala/Mvn.git', branch: 'mvn')
       }
     }
   }
