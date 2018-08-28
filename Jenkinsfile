@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Prod') {
       steps {
-        git(url: 'https:/github.com/shravankumarposhala/SeleniumWithCucucumber.git, branch: 'mvn')
+        git(url: 'https:/github.com/shravankumarposhala/SeleniumWithCucucumber.git', branch: 'mvn')
       }
     }
   }
